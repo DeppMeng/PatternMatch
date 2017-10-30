@@ -51,10 +51,6 @@ namespace UnitTestProject1
             Assert.AreEqual(true, Match.Match_1("a*a\\*", "abbca*"));
             Assert.AreEqual(true, Match.Match_1("a\\*", "a*"));
             Assert.AreEqual(true, Match.Match_1("?\\+", "c+"));
-
-            Assert.AreEqual(true, Match.Match_1("", ""));
-            Assert.AreEqual(true, Match.Match_1("", ""));
-            Assert.AreEqual(true, Match.Match_1("", ""));
             //positive Tests
             //            Assert.AreEqual(true, Match.Match_1("*aa\\?", "aa?"));
 
